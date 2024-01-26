@@ -1,0 +1,18 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+.nav_link {
+    padding: 10px;
+    color: black;
+    font-size: 1.3em;
+}
+
+img {
+    height: 300px;
+}
+
+#main_title {
+    font-size: 4em;
+}
+
