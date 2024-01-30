@@ -1,14 +1,18 @@
 body {
     background-color: rgb(16, 103, 16);
+    padding: 0;
+    margin: 0;
 }
 nav {
     display: flex;
     justify-content: center;
+    background-color: rgb(56, 138, 56);
 }
 .nav_link {
     padding: 10px;
     font-size: 1.3em;
     text-decoration: none;
+    text-align: center;
 }
 
 img {
@@ -20,7 +24,7 @@ img {
 a {
     color: black;
 }
-a:hover{
+nav a:hover{
     color: gray;
     background-color: white;
 }
@@ -32,4 +36,9 @@ a:hover{
 
 p {
     text-align: center;
+}
+
+footer{
+    background-color: rgb(53, 156, 122);
+    padding: 10px;
 }
