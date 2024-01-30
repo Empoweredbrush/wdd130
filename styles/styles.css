@@ -1,16 +1,25 @@
 body {
     background-color: darkgoldenrod;
 }
-
+nav {
+    display: flex;
+    justify-content: center;
+}
 .nav_link {
     padding: 10px;
-    color: black;
     font-size: 1.3em;
     text-decoration: none;
 }
 
 img {
     height: 300px;
+}
+a {
+    color: black;
+}
+a:hover{
+    color: gray;
+    background-color: white;
 }
 
 #main_title {
