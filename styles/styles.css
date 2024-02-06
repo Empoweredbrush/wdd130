@@ -27,8 +27,11 @@ nav {
 
 img {
     height: 30%;
+    width: 60%;
     display: block;
     margin:0 auto;
+    border: 5px solid black;
+    border-radius: 50%;
 }
 
 a {
@@ -45,8 +48,20 @@ nav a:hover{
     font-family: 'Protest Guerrilla', 'Monsterrat', sans-serif;
 }
 
-p {
+footer p {
     text-align: center;
+}
+
+main p {
+    width: 61.5%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 10px 45px;
+    background-color: rgb(18, 155, 18);
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 15px 50px 10px;
 }
 
 footer{
