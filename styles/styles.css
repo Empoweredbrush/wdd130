@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
 body {
     background-color: rgb(16, 103, 16);
     padding: 0;
@@ -40,6 +42,7 @@ nav a:hover{
 #main_title {
     font-size: 4em;
     text-align: center;
+    font-family: 'Protest Guerrilla', 'Monsterrat', sans-serif;
 }
 
 p {
