@@ -32,6 +32,13 @@ img {
     margin:0 auto;
     border: 5px solid black;
     border-radius: 50%;
+    box-shadow: 15px 15px 20px gray;
+    transition: transform .5s;
+}
+
+img:hover{
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 a {
