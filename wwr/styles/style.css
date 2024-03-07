@@ -227,6 +227,97 @@ footer p:hover{
     transform: scale(1.1);
 }
 
+/* Rivers CSS */
+.river-head {
+    background-color: #5E8C61;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.river-nav-1 {
+    grid-column: 1/2;
+}
+
+.river-nav-2 {
+    grid-column: 2/3;
+}
+
+.river-nav-3 {
+    grid-column: 3/4;
+}
+
+.river-nav-4 {
+    grid-column: 4/5;
+}
+
+.river-nav {
+    display: grid;
+    justify-content: space-around;
+}
+.river-nav a{
+    text-align: center;
+    color: #2b536d;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.salmon-river-head {
+    grid-column: 3/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.salmon-river-img {
+    margin: 200px 0;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+.salmon-river-p {
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
+
+.gray-canyon-head {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+.green-river-img {
+    margin: 200px 0;
+    grid-column: 3/5;
+    grid-row: 5/7;
+}
+
+.green-river-p {
+    grid-column: 1/3;
+    grid-row: 5/7;
+}
+
+.grand-canyon-head {
+    grid-column: 3/5;
+    grid-row: 7/8;
+    text-align: center;
+}
+
+.grand-canyon-img {
+    margin: 200px 0;
+    grid-column: 1/3;
+    grid-row: 8/10;
+}
+
+.grand-canyon-p {
+    grid-column: 3/5;
+    grid-row: 8/10;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
