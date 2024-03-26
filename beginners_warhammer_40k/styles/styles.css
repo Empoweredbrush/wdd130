@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Kode+Mono:wght@400..700&display=swap');
+
+/* Home Page CSS */
+/* Head */
+header{
+    display: grid;
+    background-color: #5c5d5e;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Kdam Thmor Pro';
+}
+
+nav a {
+    padding: 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    color: #ffd500;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* Main */
+.home-grid {
+    display: grid;
+    grid-template-columns: 10fr;
+    background-color: #5c5d5e;
+}
+
+p {
+    font-family: 'Kode Mono';
+}
+
+/* Section Intorduction */
+
+.intro-title {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    font-family: "Kdam Thmor Pro";
+}
+
+.intro-image {
+    width: 50%;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.intro-quote {
+    grid-column: 1/4;
+    grid-row: 3/5;
+    color: #ffd500;
+}
+
+.intro-main {
+    grid-column: 1/3;
+    grid-row: 5/7;
+    color: #ffd500;
+}
+
+.intro-image-2 {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 5/7;
+    justify-self: center;
+}
+
+/* Section Overview */
+
+.overview-title{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 7/8;
+    display: grid;
+    font-family: "Kdam Thmor Pro";
+}
+
+.overview-image {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 8/9;
+}
+
+.overview-p1, .overview-p2{
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 9/10;
+    color: #ffd500;
+}
+
+/* Footer */
+footer {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #5c5d5e;
+}
+
+footer p{
+    display: flex;
+    color: #ffd500;
+}
