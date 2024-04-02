@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Kode+Mono:wght@400..700&display=swap');
 
+img {
+    padding: 10px;
+}
+
+p {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
 /* Home Page CSS */
 /* Head */
 header{
@@ -29,7 +39,7 @@ nav a {
 /* Main */
 .home-grid {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: 1fr 1fr;
     background-color: #5c5d5e;
 }
 
@@ -48,7 +58,7 @@ p {
 }
 
 .intro-image {
-    width: 100%;
+    width: 85%;
     grid-column: 3/4;
     grid-row: 2/4;
     display: block;
@@ -69,7 +79,7 @@ p {
 }
 
 .intro-image-2 {
-    width: 100%;
+    width: 85%;
     display: block;
     margin: 0 auto;
     grid-column: 1/4;
@@ -132,4 +142,438 @@ footer {
 footer p{
     display: flex;
     color: #ffd500;
+}
+
+/* Imperium of Man CSS */
+.imperium-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #5c5d5e;
+}
+
+.imperium-title {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+/* Overview */
+.imperium-introduction {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+p {
+    text-align: center;
+    color: #ffd500;
+}
+
+.history1 {
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+
+.history2 {
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.history3 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
+
+.horus-heresy-img {
+    display: block;
+    margin: 0 auto;
+    grid-column: 3/4;
+    grid-row: 5/6;
+    width: 75%;
+}
+
+.history4 {
+    grid-column: 1/4;
+    grid-row: 6/7;
+}
+
+.history5 {
+    grid-column: 1/4;
+    grid-row: 7/8;
+}
+
+.faction-title {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 8/9;
+}
+
+.faction-p {
+    grid-column: 1/4;
+    grid-row: 9/10;
+}
+
+.militarum {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 10/11;
+}
+
+.militarum-img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    grid-column: 1/4;
+    grid-row: 11/12;
+}
+
+.militarum1 {
+    grid-column: 1/4;
+    grid-row: 12/13;
+}
+
+.militarum2 {
+    grid-column: 1/4;
+    grid-row: 13/14;
+}
+
+.astartes-head {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 14/15;
+}
+
+.astartes-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 15/16;
+}
+
+.astartes-p {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 15/16;
+}
+
+.ultramarines {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 16/17;
+}
+
+.ultramarines-img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    grid-column: 1/4;
+    grid-row: 17/18;
+}
+
+.ultramarines-p {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 18/19;
+}
+
+.dark-angels {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 19/20;
+}
+
+.dark-angels-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 20/21;
+}
+
+.dark-angels-p {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 20/21;
+}
+
+.imperial-fists {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 21/22;
+}
+
+.imperial-fists-img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    grid-column: 1/4;
+    grid-row: 22/23;
+}
+
+.imperial-fists-p {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 23/24;
+}
+
+.raven-guard {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 24/25;
+}
+
+.raven-guard-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 25/26;
+}
+
+.raven-guard-p {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 25/26;
+}
+
+.blood-angels {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 26/27;
+}
+
+.blood-angels-img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    grid-column: 2/4;
+    grid-row: 27/28;
+}
+
+.blood-angels-p {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 27/28;
+}
+
+.white-scars {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 28/29;
+}
+
+.white-scars-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 29/30;
+}
+
+.white-scars-p {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 29/30;
+}
+
+.iron-hands {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 30/31;
+}
+
+.iron-hands-img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    grid-column: 2/4;
+    grid-row: 31/32;
+}
+
+.iron-hands-p {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 31/32;
+}
+
+.space-wolves {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 32/33;
+}
+
+.space-wolves-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 33/34;
+}
+
+.space-wolves-p {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 33/34;
+}
+
+.salamanders {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 34/35;
+}
+
+.salamanders-img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    grid-column: 2/4;
+    grid-row: 35/36;
+}
+
+.salamanders-p {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 35/36;
+}
+
+.adeptus-mechanicus {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 36/37;
+}
+
+.admech-img {
+    display: block;
+    margin: 0 auto;
+    width: 200%;
+    grid: 1/4;
+    grid-row: 37/38;
+}
+
+.admech-p {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 38/39;
+}
+
+.admech-img2 {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    grid-column: 2/4;
+    grid-row: 39/40;
+}
+
+.admech-p2 {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 40/41;
+}
+
+
+.adpeta-sororitas {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 41/42;
+}
+
+.adpeta-sororitas-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 42/43;
+}
+
+.adpeta-sororitas-p {
+    text-align: center;
+    font-size: small;
+    grid-column: 2/4;
+    grid-row: 42/43;
+}
+
+.grey-knights {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 43/44;
+}
+
+.grey-knights-img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    grid-column: 2/4;
+    grid-row: 43/44;
+}
+
+.grey-knights-p {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 45/46;
+}
+
+.adeptus-custodes {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 46/47;
+}
+
+.adeptus-custodes-img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    grid-column: 1/4;
+    grid-row: 48/49;
+}
+
+.adeptus-custodes-p1 {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 47/48;
+}
+
+.adeptus-custodes-p2 {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 49/50;
+}
+
+.imperial-knights {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 50/51;
+}
+
+.imperial-knights-img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    grid-column: 2/4;
+    grid-row: 51/52;
+}
+
+.imperial-knights-p {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 51/52;
+}
+
+.inquisition {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 52/53;
+}
+
+.inquisition-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 53/54;
+}
+
+.inquisition-p {
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 53/54;
 }
