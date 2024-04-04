@@ -9,7 +9,9 @@ p {
     padding: 10px;
 }
 
-
+footer {
+    text-align: center;
+}
 /* Home Page CSS */
 /* Head */
 header{
